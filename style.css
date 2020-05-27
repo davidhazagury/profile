@@ -47,7 +47,7 @@ a:visited {
  img{
   border-radius: 50%;
   border: 2px solid black;
-  margin-left: 260px;
+  margin-left: 30px;
  }
  /* WHITE CARD DESIGN*/
  .white-card{
@@ -57,6 +57,7 @@ a:visited {
   padding: 30px 50px;
   box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
   border-radius: 4px;
+  text-align:center;
 }
 .white-card p{
   text-align: justify;
@@ -69,14 +70,14 @@ a:visited {
   text-align: center;
   margin-top: 8px;
 }
-/* GREEN BTN DESIGN*/
+/* GREEN BTN DESIGN */
 .btn-green{
   background-color: #D1D646;
   color: black;
   border-radius: 3px
   padding: 20px 30px;
   margin-top: 15px;
-  margin-left: 260px;
+  margin-left: 30px;
   padding: 15px 20px 15px 20px;
   display: inline-block;
   transition:  all 1s ease-in-out ;
@@ -91,32 +92,45 @@ a:visited {
   text-align:center;
 }
 iframe{
-margin: 10px 0px 24px 190px;
+margin: 10px 0px 24px 30px;
 }
 
 /* FOLLOW ME*/
-.white-card li{
-  display: inline;
+.list-inline {
   list-style: none;
-}
-.footer{
-  text-align: center;
-}
-.footer a{
- font-size: 30px;
-}
-.footer h2{
-    padding: 0px;
-    margin-left: 32px;
-}
-.footer i{
-letter-spacing: 3px;
+  padding-left: 0px;
 }
 
-i:hover{
+.list-inline li {
+  display: inline-block
+}
+.icons { 
+text-align:center;
+}
+.icons i{
+  font-size: 30px;
+  letter-spacing: 5px;
+}
+.icons :hover {
   color: #FE4A49;
   transform: scale(1.5);
 }
+
+/* SHOWS DESIGN */
+
+.list-inline{
+  list-style: none;
+  padding-left: 0px;
+}
+.list-inline li {
+  display: inline-block;
+}
+.square-pics {
+  border: 2px solid grey;
+  border-radius: 4px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+}
+
 
 
 @media (max-width: 960px) {
