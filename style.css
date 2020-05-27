@@ -85,6 +85,15 @@ a:visited {
  background-color: #FE4A49;
  transform: rotateZ(360deg);
 }
+/* SPOTIFY DIV*/
+
+#song h2{
+  text-align:center;
+}
+iframe{
+margin: 10px 0px 24px 190px;
+}
+
 /* FOLLOW ME*/
 .white-card li{
   display: inline;
@@ -101,7 +110,9 @@ a:visited {
     margin-left: 32px;
 }
 .footer i{
-letter-spacing: 3px;}
+letter-spacing: 3px;
+}
+
 i:hover{
   color: #FE4A49;
   transform: scale(1.5);
